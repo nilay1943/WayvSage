@@ -1,0 +1,74 @@
+#hero {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+button {
+  background-size: cover;
+  background-position: center center;
+  height: 120px;
+  width:120px;
+  margin-top: 8px;
+ vertical-align: middle;
+}
+
+.btn-group {
+  display: flex;
+ flex-wrap: wrap;
+ padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin: 50px;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+#soundcloud {
+    background-image: url('soundcloud.png');
+}
+
+#spotify{
+    background-image: url('spotify.jpg');
+}
+
+#hero-overlay {
+ position: absolute;
+ background-color: rgba(0, 0, 0, 0.5);
+ top: 0;
+ bottom: 0;
+ height: 100%;
+ width: 100%;
+ z-index:  5;
+}
+
+#title {
+  font-family: 'Lobster', cursive;
+  font-size: 54px;
+}
+
+body {
+  margin: 0px;
+}
